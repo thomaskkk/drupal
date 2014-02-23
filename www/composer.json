@@ -1,0 +1,5 @@
+{
+    "require": {
+        "thecodingmachine/drupal": "7.23.*@dev"
+    }
+}

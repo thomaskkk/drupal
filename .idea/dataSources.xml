@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1970519328">
+    <data-source source="LOCAL" name="MySQL - drupal@192.168.50.4" uuid="698dd40a-8048-4c96-8d6c-f2a9a13b9534">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.50.4:3306/drupal</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc8dfcbdfdedfcbdfdedfcbdfccdfd8dfc3dfdedfcb</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

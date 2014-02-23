@@ -1,0 +1,102 @@
+[
+    {
+        "name": "mouf/archive-installer",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thecodingmachine/archive-installer.git",
+            "reference": "bb35bab2cbff3907b7c5b4c9b17fbfa4e62301ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thecodingmachine/archive-installer/zipball/bb35bab2cbff3907b7c5b4c9b17fbfa4e62301ba",
+            "reference": "bb35bab2cbff3907b7c5b4c9b17fbfa4e62301ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-05-23 12:30:42",
+        "type": "composer-installer",
+        "extra": {
+            "class": [
+                "Mouf\\Installer\\ArchiveInstaller"
+            ],
+            "mouf": {
+                "logo": "package.png"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Mouf": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Négrier",
+                "email": "d.negrier@thecodingmachine.com",
+                "homepage": "http://mouf-php.com"
+            }
+        ],
+        "description": "This is a simple installer that let's you create simple Composer packages that are actually downloading and extracting an archive from the web.",
+        "homepage": "http://mouf-php.com",
+        "keywords": [
+            "archive",
+            "download",
+            "install",
+            "mouf"
+        ]
+    },
+    {
+        "name": "thecodingmachine/drupal",
+        "version": "7.23.x-dev",
+        "version_normalized": "7.23.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thecodingmachine/drupal.git",
+            "reference": "dded8c7294fc15f6db1a1476a0e7ea643b03c1e0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thecodingmachine/drupal/zipball/dded8c7294fc15f6db1a1476a0e7ea643b03c1e0",
+            "reference": "dded8c7294fc15f6db1a1476a0e7ea643b03c1e0",
+            "shasum": ""
+        },
+        "require": {
+            "mouf/archive-installer": "~1.0",
+            "php": ">=5.3.0"
+        },
+        "time": "2013-10-15 10:34:22",
+        "type": "archive-package",
+        "extra": {
+            "url": "http://ftp.drupal.org/files/projects/drupal-7.23.zip",
+            "target-dir": ".",
+            "omit-first-directory": "true"
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Négrier",
+                "email": "d.negrier@thecodingmachine.com",
+                "homepage": "http://mouf-php.com"
+            }
+        ],
+        "description": "This package is an installer that will download Drupal from the http://drupal.org website and unpack it at the root of your Composer project.",
+        "homepage": "http://blog.thecodingmachine.com/content/installing-drupal-using-composer",
+        "keywords": [
+            "drupal",
+            "installer",
+            "thecodingmachine"
+        ]
+    }
+]
