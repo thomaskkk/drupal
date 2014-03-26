@@ -15,7 +15,7 @@ apt-get update
 apt-get upgrade -y
 
 echo -e "${yellow}Installing servers and software${nocolor}"
-apt-get install -y -q apache2 curl php5 php5-mysql mysql-server php5-mcrypt php5-json php5-gd
+apt-get install -y -q apache2 curl git php5 php5-mysql mysql-server php5-mcrypt php5-json php5-gd php5-curl
 
 if $DEV_ENV ; then
 	echo -e "${yellow}Installing xdebug${nocolor}"
@@ -71,13 +71,5 @@ else
     php composer.phar install
 fi
 
-#echo -e "${yellow}Creating tables...${nocolor}"
-#php artisan migrate
-#php artisan migrate --package=cartalyst/sentry
-
-#echo -e "${yellow}Seeding with demodata...${nocolor}"
-#php artisan db:seed
-
 
 echo -e "${yellow}Finished${nocolor}"
-
